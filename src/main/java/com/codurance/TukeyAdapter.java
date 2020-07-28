@@ -4,6 +4,7 @@ import com.codurance.behaviors.FlyBehavior;
 import com.codurance.behaviors.QuackBehavior;
 import com.codurance.entities.Duck;
 import com.codurance.entities.Turkey;
+import java.util.stream.*;
 
 public class TukeyAdapter implements Duck {
 
@@ -39,6 +40,6 @@ public class TukeyAdapter implements Duck {
 
   @Override
   public void performFly() {
-    turkey.fly();
+    IntStream.range(0, 5).forEach(i -> turkey.fly());
   }
 }
