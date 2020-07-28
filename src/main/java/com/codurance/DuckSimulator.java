@@ -10,10 +10,8 @@ public class DuckSimulator {
     ducks.forEach(duck -> {
       duck.display();
       duck.swim();
-      duck.quack();
-      if (duck instanceof Flyable){
-        ((Flyable) duck).fly();
-      }
+      duck.preformQuack();
+      duck.performFly();
       System.out.println();
     });
   }
