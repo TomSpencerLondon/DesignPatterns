@@ -1,8 +1,15 @@
 package com.codurance;
 
 public abstract class Duck {
-  public void quack() {
-    System.out.println("Quack");
+  FlyBehavior flyBehavior;
+  QuackBehavior quackBehavior;
+
+  public void setFlyBehavior(FlyBehavior flyBehavior) {
+    this.flyBehavior = flyBehavior;
+  }
+
+  public void setQuackBehavior(QuackBehavior quackBehavior) {
+    this.quackBehavior = quackBehavior;
   }
 
   public void swim() {
@@ -10,4 +17,11 @@ public abstract class Duck {
   }
 
   public abstract void display();
+
+  public void preformQuack() {
+    quackBehavior.quack();
+  }
+  public void performFly() {
+    flyBehavior.fly();
+  }
 }
