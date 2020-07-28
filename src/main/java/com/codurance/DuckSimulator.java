@@ -11,6 +11,7 @@ public class DuckSimulator {
       duck.display();
       duck.swim();
       duck.quack();
+      duck.fly();
       System.out.println();
     });
   }
