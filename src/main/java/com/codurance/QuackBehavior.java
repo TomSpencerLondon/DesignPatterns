@@ -1,4 +1,5 @@
 package com.codurance;
 
-public class QuackBehavior {
+public interface QuackBehavior {
+  void quack();
 }
