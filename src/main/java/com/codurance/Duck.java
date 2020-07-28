@@ -1,6 +1,6 @@
 package com.codurance;
 
-public abstract class Duck implements Flyable {
+public abstract class Duck {
   public void quack() {
     System.out.println("Quack");
   }

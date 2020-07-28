@@ -11,7 +11,9 @@ public class DuckSimulator {
       duck.display();
       duck.swim();
       duck.quack();
-      duck.fly();
+      if (duck instanceof Flyable){
+        ((Flyable) duck).fly();
+      }
       System.out.println();
     });
   }
