@@ -1,4 +1,7 @@
-package com.codurance;
+package com.codurance.entities;
+
+import com.codurance.behaviors.FlyNoWay;
+import com.codurance.entities.Duck;
 
 public class RubberDuck extends Duck {
 

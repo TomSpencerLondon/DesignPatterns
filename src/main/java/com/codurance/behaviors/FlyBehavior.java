@@ -1,4 +1,4 @@
-package com.codurance;
+package com.codurance.behaviors;
 
 public interface FlyBehavior {
   void fly();

@@ -1,4 +1,7 @@
-package com.codurance;
+package com.codurance.entities;
+
+import com.codurance.behaviors.FlyWithWings;
+import com.codurance.behaviors.Quack;
 
 public class MallardDuck extends Duck {
 

@@ -1,4 +1,6 @@
-package com.codurance;
+package com.codurance.behaviors;
+
+import com.codurance.behaviors.FlyBehavior;
 
 public class FlyWithWings implements FlyBehavior {
 
