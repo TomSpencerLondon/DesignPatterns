@@ -1,6 +1,4 @@
-package com.codurance.behaviors;
-
-import com.codurance.behaviors.QuackBehavior;
+package com.codurance.strategyadapter.behaviors;
 
 public class Quack implements QuackBehavior {
 

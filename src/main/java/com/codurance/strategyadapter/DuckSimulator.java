@@ -1,11 +1,11 @@
-package com.codurance;
+package com.codurance.strategyadapter;
 
-import com.codurance.entities.DecoyDuck;
-import com.codurance.entities.Duck;
-import com.codurance.entities.MallardDuck;
-import com.codurance.entities.RedheadDuck;
-import com.codurance.entities.RubberDuck;
-import com.codurance.entities.WildTurkey;
+import com.codurance.strategyadapter.entities.DecoyDuck;
+import com.codurance.strategyadapter.entities.Duck;
+import com.codurance.strategyadapter.entities.MallardDuck;
+import com.codurance.strategyadapter.entities.RedheadDuck;
+import com.codurance.strategyadapter.entities.RubberDuck;
+import com.codurance.strategyadapter.entities.WildTurkey;
 import java.util.List;
 
 public class DuckSimulator {

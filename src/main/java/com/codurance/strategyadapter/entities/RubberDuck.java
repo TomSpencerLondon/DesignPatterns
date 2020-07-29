@@ -1,9 +1,8 @@
-package com.codurance.entities;
+package com.codurance.strategyadapter.entities;
 
-import com.codurance.behaviors.FlyNoWay;
-import com.codurance.entities.Duck;
+import com.codurance.strategyadapter.behaviors.FlyNoWay;
 
-public class RubberDuck extends Duck {
+public class RubberDuck extends DuckImpl {
 
   public RubberDuck() {
     quackBehavior = () -> System.out.println("Squeek!");

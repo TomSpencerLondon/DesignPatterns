@@ -1,4 +1,4 @@
-package com.codurance.entities;
+package com.codurance.strategyadapter.entities;
 
 public class WildTurkey implements Turkey {
 

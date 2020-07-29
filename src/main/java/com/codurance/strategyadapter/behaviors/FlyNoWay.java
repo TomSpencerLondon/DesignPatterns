@@ -1,6 +1,4 @@
-package com.codurance.behaviors;
-
-import com.codurance.behaviors.FlyBehavior;
+package com.codurance.strategyadapter.behaviors;
 
 public class FlyNoWay implements FlyBehavior {
 

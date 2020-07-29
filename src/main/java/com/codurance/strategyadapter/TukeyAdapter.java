@@ -1,9 +1,9 @@
-package com.codurance;
+package com.codurance.strategyadapter;
 
-import com.codurance.behaviors.FlyBehavior;
-import com.codurance.behaviors.QuackBehavior;
-import com.codurance.entities.Duck;
-import com.codurance.entities.Turkey;
+import com.codurance.strategyadapter.behaviors.FlyBehavior;
+import com.codurance.strategyadapter.behaviors.QuackBehavior;
+import com.codurance.strategyadapter.entities.Duck;
+import com.codurance.strategyadapter.entities.Turkey;
 import java.util.stream.*;
 
 public class TukeyAdapter implements Duck {

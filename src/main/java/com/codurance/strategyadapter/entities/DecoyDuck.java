@@ -1,8 +1,8 @@
-package com.codurance.entities;
+package com.codurance.strategyadapter.entities;
 
-import com.codurance.behaviors.FlyNoWay;
+import com.codurance.strategyadapter.behaviors.FlyNoWay;
 
-public class DecoyDuck extends Duck {
+public class DecoyDuck extends DuckImpl {
 
   public DecoyDuck() {
     flyBehavior = new FlyNoWay();
