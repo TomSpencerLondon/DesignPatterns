@@ -5,6 +5,8 @@ import com.codurance.decorator.entities.DarkRoast;
 import com.codurance.decorator.entities.Decaf;
 import com.codurance.decorator.entities.Espresso;
 import com.codurance.decorator.entities.HouseBlend;
+import com.codurance.decorator.entities.Mocha;
+import com.codurance.decorator.entities.Whip;
 import java.util.List;
 
 public class Barrista {
@@ -15,5 +17,10 @@ public class Barrista {
     );
 
     beverages.forEach(System.out::println);
+
+    Beverage beverage = new DarkRoast();
+    beverage = new Whip(new Mocha(beverage));
+
+    System.out.println(beverage);
   }
 }

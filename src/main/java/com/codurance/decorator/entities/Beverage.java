@@ -12,6 +12,6 @@ public abstract class Beverage {
 
   @Override
   public String toString() {
-    return description + " £" + cost();
+    return getDescription() + " £" + cost();
   }
 }
