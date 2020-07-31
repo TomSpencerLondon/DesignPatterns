@@ -2,17 +2,14 @@ package com.codurance.composite.entities;
 
 public class Waitress {
 
-  private final Menu pancakeHouseMenu;
-  private final Menu dinerMenu;
+  private final MenuComponent menu;
 
-  public Waitress(Menu pancakeHouseMenu, Menu dinerMenu) {
-    this.pancakeHouseMenu = pancakeHouseMenu;
-    this.dinerMenu = dinerMenu;
+  public Waitress(MenuComponent menu) {
+    this.menu = menu;
   }
 
   public void sayMenu() {
-    System.out.println("Hey darling. This is our combined menu: ");
-    pancakeHouseMenu.forEach(System.out::println);
-    dinerMenu.forEach(System.out::println);
+    System.out.println("Hey darling. This is our composed menu: ");
+    System.out.println(menu);
   }
 }

@@ -1,6 +1,6 @@
 package com.codurance.composite.entities;
 
-public class MenuItem {
+public class MenuItem implements MenuComponent {
   private final String name;
   private final double price;
   private final String description;
