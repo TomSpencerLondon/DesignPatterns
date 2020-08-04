@@ -1,7 +1,7 @@
 package com.codurance.factory.simple;
 
 
-import com.codurance.factory.method.entities.Pizza;
+import com.codurance.factory.simple.entities.Pizza;
 
 public class App {
 
